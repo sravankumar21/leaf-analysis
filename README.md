@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+Leaf Analysis 🌿
+How to Run the Project
+Follow the steps below to set up and run both the backend (Flask server) and frontend (React
+app) of this project.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Clone the Repository
+git clone https://github.com/sravankumar21/leaf-analysis.git
 
-## Available Scripts
+2. Open the Project
+● Open the cloned folder in Visual Studio Code (or any code editor of your choice).
 
-In the project directory, you can run:
+3. Start the Backend (Flask Server)
+Navigate to the backend directory:
+cd backend
+Run the Flask server:
+python3 app.py
+● This will start the backend server where deep learning models are integrated.
+(Models are pre-downloaded and saved in .h5 format inside the backend/models
+folder.)
 
-### `npm start`
+4. Start the Frontend (React App)
+● Open a new terminal window (do not stop the backend server).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+From the project root directory, install frontend dependencies:
+npm install
+Once installation is complete, start the React app:
+npm start
+● Your browser will open automatically and navigate to the home page of the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Project Features
+● 🌱 Predict Leaf Species — Identify the species of a leaf.
+● 🌿 Health Check — Detect whether the leaf is healthy or diseased.
+● 🍃 Maturity Level Analysis — Determine if the leaf is mature or immature.
+● 🌸 Medicinal Benefits — Check if the leaf is recommended for medicinal purposes and
+explore its potential health benefits.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Explore the application, upload a leaf image, and experience smart leaf analysis
+using deep learning and AI! 🚀
