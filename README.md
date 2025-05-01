@@ -1,4 +1,6 @@
 Leaf Analysis 🌿
+
+
 How to Run the Project
 Follow the steps below to set up and run both the backend (Flask server) and frontend (React
 app) of this project.
